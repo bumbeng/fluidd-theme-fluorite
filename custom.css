@@ -22,9 +22,9 @@
 .theme--dark.v-toolbar.v-sheet {
     background-color: #28282880;
 }
-.expanded header.v-toolbar[data-v-3cfcc6d8] {
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+.expanded header.v-toolbar {
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
 }
 /* main-header */
 .theme--dark.v-app-bar.v-toolbar.v-sheet {
@@ -196,9 +196,9 @@ header.v-sheet.theme--dark.v-toolbar.v-toolbar--dense {
     overflow: visible;
     width: 100%;
 }
-.theme--dark .toolbar-logo[data-v-c7328aa4] {
+.theme--dark .toolbar-logo {
     border: 0 !important;
-    background: none;
+    background: none !important;
 }
 a.v-list-item--active.v-list-item.v-list-item--link.theme--dark.secondary--text {
     border-right: solid 3px #c78a1b;
@@ -234,8 +234,8 @@ button.flex-grow-1.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--de
 .file-system .theme--dark.v-data-table tr>td.actions div:before {
     background: linear-gradient(90deg, #35353900, #2a2a2a70);
 }
-.camera-container[data-v-2ecab8f2] {
-    background: #28282860;
+.camera-container {
+    background: #28282860 !important;
 }
 .py-0.col {
     min-width: 100%;
