@@ -1,3 +1,7 @@
+.col-sm-5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
 :root {
     --v-warning-base: #c97e20;
     --v-card-heading-base: #12121260;
